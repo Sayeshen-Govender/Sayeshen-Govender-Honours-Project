@@ -53,6 +53,8 @@ Sayeshen-Govender-Honours-Project-main/
 ```bash
 cd C:\Users\<YourName>\Downloads\Sayeshen-Govender-Honours-Project-main
 ```
+Replace <YourName> with the name of your PC
+
 **Linux/macOS:**
 ```bash
 cd ~/Downloads/Sayeshen-Govender-Honours-Project-main
