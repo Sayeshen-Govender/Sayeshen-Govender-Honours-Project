@@ -27,6 +27,23 @@ python3 -m pip install --upgrade pip
 > On **Windows**, unzipping may create a subfolder with the same name.  
 > Make sure the root folder is named `Sayeshen-Govender-Honours-Project` and does **not** contain another subfolder with the same name.
 
+The directory should look like this after unzipping:
+```bash
+Sayeshen-Govender-Honours-Project/
+├── main.py
+├── requirements.txt
+├── README.md
+├── data/
+│ ├── dataset.csv
+│ └── ...
+├── src/
+│ ├── init.py
+│ ├── utils.py
+│ └── model.py
+├── results/
+│ ├── logs/
+│ └── plots/
+```
 ---
 
 ### Step 2: Open in Code Editor
@@ -55,6 +72,7 @@ python -m venv .venv
 ```bash
 python3 -m venv .venv
 ```
+---
 
 ### Step 4: Activate the Virtual Environment
 
@@ -66,6 +84,7 @@ python3 -m venv .venv
 ```bash
 source .venv/bin/activate
 ```
+---
 
 ### Step 5: Install Dependencies
 
@@ -77,6 +96,7 @@ pip install -r requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
+---
 
 ### Step 6: Disable Weights & Biases (wandb)
 **Windows:**
@@ -87,6 +107,7 @@ set WANDB_MODE=disabled
 ```bash
 export WANDB_MODE=disabled
 ```
+---
 
 ### Step 7: Run the Project
 
