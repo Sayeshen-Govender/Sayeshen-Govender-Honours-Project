@@ -25,39 +25,37 @@ python -m pip install --upgrade pip
 python3 -m pip install --upgrade pip
 ```
 > On **Windows**, unzipping may create a subfolder with the same name.  
-> Make sure the root folder is named `Sayeshen-Govender-Honours-Project` and does **not** contain another subfolder with the same name.
+> Make sure the root folder is named `Sayeshen-Govender-Honours-Project-main` and does **not** contain another subfolder with the same name.
 
 The directory should look like this after unzipping:
 ```bash
-Sayeshen-Govender-Honours-Project/
+Sayeshen-Govender-Honours-Project-main/
+├── logs/
+├── curves.py
 ├── main.py
+├── ppo_continuous_action.py
+├── rpo_continuous_action.py
+├── test_ppo.py
+├── test_rpo.py
+├── train.py
+├── utils.py
 ├── requirements.txt
-├── README.md
-├── data/
-│ ├── dataset.csv
-│ └── ...
-├── src/
-│ ├── init.py
-│ ├── utils.py
-│ └── model.py
-├── results/
-│ ├── logs/
-│ └── plots/
+└── README.md
 ```
 ---
 
 ### Step 2: Open in Code Editor
 
 - Open your preferred **code editor** (e.g., VS Code).  
-- Set the **working directory** to the extracted project folder (`Sayeshen-Govender-Honours-Project`).
+- Set the **working directory** to the extracted project folder (`Sayeshen-Govender-Honours-Project-main`).
 
 **Windows:**
 ```bash
-cd C:\Users\<YourName>\Downloads\Sayeshen-Govender-Honours-Project
+cd C:\Users\<YourName>\Downloads\Sayeshen-Govender-Honours-Project-main
 ```
 **Linux/macOS:**
 ```bash
-cd ~/Downloads/Sayeshen-Govender-Honours-Project
+cd ~/Downloads/Sayeshen-Govender-Honours-Project-main
 ```
 
 ---
