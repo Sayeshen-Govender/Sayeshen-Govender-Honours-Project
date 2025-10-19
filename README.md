@@ -124,3 +124,10 @@ python3 main.py
 ---
 
 ## Below are specific instructions for training and evaluating specific experiments, and generating training curves. If you do not wish to do this, then you may ignore the instructions below.
+
+>  **Note:**
+> All of the models have already been fully trained, and you can immediately test them.
+> Retraining these models will take **several** hours.
+> We first have instructions on what needs to be changed to  **test** our models, and thereafter are instructions on how to **retrain** our models.
+
+
