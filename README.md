@@ -42,6 +42,26 @@ Sayeshen-Govender-Honours-Project-main/
 ├── requirements.txt
 └── README.md
 ```
+
+It should **NOT** look like this:
+
+```bash
+Sayeshen-Govender-Honours-Project-main/
+└── Sayeshen-Govender-Honours-Project-main/
+    ├── logs/
+    ├── curves.py
+    ├── main.py
+    ├── ppo_continuous_action.py
+    ├── rpo_continuous_action.py
+    ├── test_ppo.py
+    ├── test_rpo.py
+    ├── train.py
+    ├── utils.py
+    ├── requirements.txt
+    └── README.md
+```
+If this is the case, make sure to move the inner `Sayeshen-Govender-Honours-Project-main` folder directly into your downloads and use **this** as the root directory.
+
 ---
 
 ### Step 2: Open in Code Editor
