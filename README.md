@@ -14,16 +14,17 @@ Follow the steps below to set up and run this project locally.
 3. Extract the ZIP file to your "**Downloads**.  
 
 >  **Note:**
-> Ensure you have Python 3.8+ installed.
+> Ensure you have a Python version >=3.7.1 , <3.11 installed.
 
 **Windows:**
 ```bash
-python -m pip install --upgrade pip
+python --version
 ```
 **Linux/macOS:**
 ```bash
-python3 -m pip install --upgrade pip
+python3 --version
 ```
+
 > On **Windows**, unzipping may create a subfolder with the same name.  
 > Make sure the root folder is named `Sayeshen-Govender-Honours-Project-main` and does **not** contain another subfolder with the same name.
 
