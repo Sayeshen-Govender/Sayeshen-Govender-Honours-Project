@@ -15,6 +15,9 @@ Follow the steps below to set up and run this project locally.
 
 >  **Note:**
 > Ensure you have a Python version >=3.7.1 , <3.11 installed. Any other version will **NOT** work due to the implementation of CleanRL.
+> Version 3.10.2 is recommended: https://www.python.org/downloads/release/python-3102/
+
+Verify your version below: 
 
 **Windows:**
 ```bash
