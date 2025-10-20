@@ -17,6 +17,7 @@ Follow the steps below to set up and run this project locally.
 > Ensure you have a Python version >=3.7.1 , <3.11 installed. Any other version will **NOT** work due to the implementation of CleanRL.
 > Make sure this is the **ONLY** version of Python installed.
 > Version 3.10.2 is recommended: https://www.python.org/downloads/release/python-3102/
+> Ensure you check the box that says "Add Python 3.X to PATH" when installing.
 
 Verify your version below: 
 
@@ -188,9 +189,11 @@ Do the same below:
 
 Now you should be able to perform testing on any of our pretrained models.
 
-**If you wish to verify that training works as inteded, you may uncomment the following**:
+**If you wish to verify that training works as intended, you may uncomment the following**:
 <img width="1989" height="645" alt="image" src="https://github.com/user-attachments/assets/ff40f3e4-929e-4b08-9297-5710634883a2" />
 <img width="1732" height="515" alt="image" src="https://github.com/user-attachments/assets/fe681a20-e46e-415a-a73d-b9b892a33379" />
+
+You can run `main.py` again using the command in Step 7 with your changes.
 
 Now for generating the training curves, we go to `curves.py`. 
 
@@ -204,7 +207,7 @@ python3 curves.py
 ```
 
 Running `curves.py` without any changes will generate the training curves for **Case One** training, and save them in the `plots/` file.
-If you wish to generate the curves for **Case Two**, you will need to uncomment the follwing:
+If you wish to generate the curves for **Case Two**, you will need to uncomment the following:
 
 <img width="1779" height="176" alt="image" src="https://github.com/user-attachments/assets/c818f7c9-5443-400e-b325-4b68298c4a62" />
 <img width="1836" height="681" alt="image" src="https://github.com/user-attachments/assets/59b6e645-1471-4128-ae34-4050eb9dcd81" />
@@ -212,7 +215,7 @@ If you wish to generate the curves for **Case Two**, you will need to uncomment 
 <img width="1778" height="246" alt="image" src="https://github.com/user-attachments/assets/59d061f6-e833-481b-9383-b3c9975e3f52" />
 <img width="1404" height="244" alt="image" src="https://github.com/user-attachments/assets/5e3c57a2-a7a9-47a3-961f-c2fd54bca893" />
 
-You can them run `curves.py` again for these cases.
+You can then run `curves.py` again for these cases.
 
 **Windows:**
 ```bash
