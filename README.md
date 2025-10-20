@@ -134,7 +134,7 @@ pip install -r requirements.txt
 ### Step 6: Disable Weights & Biases (wandb)
 **Windows:**
 ```bash
-wandb diabled
+wandb disabled
 ```
 **Linux/macOS:**
 ```bash
