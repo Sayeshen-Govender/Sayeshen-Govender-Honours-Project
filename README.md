@@ -96,7 +96,15 @@ python3 -m venv .venv
 
 ### Step 4: Activate the Virtual Environment
 
-**Windows:**
+**Windows (Powershell/VS Code Terminal):**
+```bash
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+```bash
+.venv\Scripts\Activate.ps1
+```
+
+**Windows (CMD/ Command Prompt):**
 ```bash
 .venv\Scripts\activate
 ```
