@@ -14,7 +14,7 @@ Follow the steps below to set up and run this project locally.
 3. Extract the ZIP file to your "**Downloads**.  
 
 >  **Note:**
-> Ensure you have a Python version >=3.7.1 , <3.11 installed.
+> Ensure you have a Python version >=3.7.1 , <3.11 installed. Any other version will **NOT** work due to the implementation of CleanRL.
 
 **Windows:**
 ```bash
